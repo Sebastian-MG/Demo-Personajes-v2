@@ -9,7 +9,7 @@ Juan Sebastian Mancera Gaitán 20171020047
  
 
 
-#### Ejecucion y Librerias
+### Ejecucion y Librerias
 
  El ejecutable del juego es el archivo Launcher.py
  Juego realizado en Python 3 junto a las siguientes librerias:
