@@ -44,8 +44,6 @@ Version 3:  Disponible aqui: https://github.com/Sebastian-MG/Demo-Personajes-v3
 ##### Modulo Builder : 
 
 Para la version 2 se amplio la clase Builder_Sprites para que construyera 4 objetos en diferentes direcciones, cada una agregada a un diccionario que era atributo propio privado de la clase Builder_Sprites, por su parte el modulo Builder_Sonidos no se expandió.
-![]()
-
 
 ##### Modulo Abstract:
 
@@ -53,13 +51,9 @@ Se reemplaza el patrón abstract Factory que se habia planteado de forma diferen
 
 Para esta versión 2 la factoria no crea un personaje, solo crea las partes con las cuales el prototype realizara el armado de cada personaje.
 
-![]()
-
 #### Modulo ClasesJuego
 
 Para versión 2 se replanteo el funcionamiento de las clases base haciendo que estas directamente fueran heredadas de la clase Sprite, se añadieron mas atributos para que la jugabilidad pudiera darse correspondiente a la extension de la clase Builder, en las 4 direcciones con velocidad en X,Y y métodos para que pudiera actualizarse en una pantalla que fuera otorgada.
-
-![]()
 
 #### Modulo Prototype:
 
@@ -67,35 +61,20 @@ Para version 2 se reestructuro el funcionamiento de la clase Prototype, ahora cr
 
 Se crea un personaje prototipo,un arma prototipo y un escudo prototipo al acceder a las factorias y se inicializa un objeto estatico llamado ObjectFactory el cual provee los prototipos y realiza un método de fácil acceso para la creacion de los mismos.
 
-![]()
-
-
 #### Modulo Composite(Modulo de Prueba):
 
 En este módulo se intentó recrear el concepto del patrón Composite graficando en pantalla un personaje que trae sus Builders directamente y los settea sin hacer uso de alguna Factoria o Prototype solo para comprobar el resultado de graficar en pantalla y sobreponer la sombra del porsonaje, el personaje y sus armas.
 
-
-![]()
-
-
 #### Modulo Decorator 
 En este módulo se crea de manera lógica el funcionamiento del patrón Decorator aunque durante la ejecución este no es utilizado.
-
-![]()
 
 #### Modulo Flyweight
 
 Se crea una clase Peso_Ligero que diera facil acceso a los prototipos del módulo Prototype y que los posicionara en pantalla de una manera más dinámica y de fácil acceso al programador.
 
-![]()
-
-
 #### Modulo Tipos
 
-
 En este módulo se crea una clase Enum la cual provee los tipos de personaje disponibles en el juego para que fuera facilmente extensible la cantidad de personajes que se pueden seleccionar.
-
-![]()
 
 #### Modulo Game 
 
@@ -103,46 +82,10 @@ Reemplaza al módulo DemoJuegos de la versión 1, ahora este  módulo no crea cl
 
 Se creo un método de ordenamiento en pantalla probado en el módulo Composite para que los personajes pudieran ser graficados en pantalla, de manera lógica en la cual los personajes  que estuviesen al fondo no se sobrepusieran sobre los personajes mas cercanos a la parte frontal.
 
-![]()
-
 #### Modulo Launcher
 
 Este módulo trae todos los tipos disponibles en el Enum del modulo tipos y crea una matriz en pantalla para que el usuario pueda seleccionar el tipo de personaje con el cual quiere jugar, es decir settea la seleccion del usuario al Modulo Game para que el juego comience aplicando los principios Open-Close y Single Responsability.
 
+### Diagrama de Clases
 
-![]()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![diag2(https://github.com/Sebastian-MG/Demo-Personajes-v2/blob/master/uml2-1.png)
