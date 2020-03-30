@@ -88,4 +88,4 @@ Este módulo trae todos los tipos disponibles en el Enum del modulo tipos y crea
 
 ### Diagrama de Clases
 
-![diag2(https://github.com/Sebastian-MG/Demo-Personajes-v2/blob/master/uml2-1.png)
+![diag2](https://github.com/Sebastian-MG/Demo-Personajes-v2/blob/master/uml2-1.png)
