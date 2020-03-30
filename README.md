@@ -64,8 +64,37 @@ En este módulo se intentó recrear el concepto del patrón Composite graficando
 
 
 #### Modulo Decorator 
+En este módulo se crea de manera lógica el funcionamiento del patrón Decorator aunque durante la ejecución este no es utilizado.
+
+![]()
+
+#### Modulo Flyweight
+
+Se crea una clase Peso_Ligero que diera facil acceso a los prototipos del módulo Prototype y que los posicionara en pantalla de una manera más dinámica y de fácil acceso al programador.
+
+![]()
 
 
+#### Modulo Tipos
+
+
+En este módulo se crea una clase Enum la cual provee los tipos de personaje disponibles en el juego para que fuera facilmente extensible la cantidad de personajes que se pueden seleccionar.
+
+
+
+#### Modulo Game 
+
+Reemplaza al módulo DemoJuegos de la versión 1, ahora este  módulo no crea clases, solo posee el método main el cual ejecuta el juego a partir de un personaje seleccionable, se extendieron los procesos para crear una orda de personajes mas amplia con diferentes tipos de personajes y la jugabulidad se extendió en metodos para la capacidad que ahora provee los Builders referente a las 4 direcciones en las que se puede desplazar el personaje.
+
+Se creo un método de ordenamiento en pantalla probado en el módulo Composite para que los personajes pudieran ser graficados en pantalla, de manera lógica en la cual los personajes  que estuviesen al fondo no se sobrepusieran sobre los personajes mas cercanos a la parte frontal.
+
+#### Modulo Launcher
+
+Este módulo trae todos los tipos disponibles en el Enum del modulo tipos y crea una matriz en pantalla para que el usuario pueda seleccionar el tipo de personaje con el cual quiere jugar, es decir settea la seleccion del usuario al Modulo Game para que el juego comience aplicando los principios Open-Close y Single Responsability.
+
+
+
+#### 
 
 
 
