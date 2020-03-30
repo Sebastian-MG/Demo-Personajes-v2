@@ -3,8 +3,8 @@
 ### Luis Felipe Corredor 20171020056
 ### Pedro Enrique Barrera 20171020057
 
-## El ejecutable del juego es el archivo Launcher.py
-## Juego realizado en Python 3 junto a las siguientes librerias:
+#### El ejecutable del juego es el archivo Launcher.py
+#### Juego realizado en Python 3 junto a las siguientes librerias:
 
 copy => Prototype
 
