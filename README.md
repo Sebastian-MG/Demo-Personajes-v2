@@ -26,6 +26,11 @@ math => Launcher
 
 random => ClasesJuego, Launcher, Game, Decorator, Composite, Pantalla
 
+Version 1:  Disponible aquí: https://github.com/Sebastian-MG/Demo-Personajes
+
+Version 3:  Disponible aqui: https://github.com/Sebastian-MG/Demo-Personajes-v3
+
+
 ##### Modulo Builder : 
 
 Para la version 2 se amplio la clase Builder_Sprites para que construyera 4 objetos en diferentes direcciones, cada una agregada a un diccionario que era atributo propio privado de la clase Builder_Sprites, por su parte el modulo Builder_Sonidos no se expandió.
@@ -80,7 +85,7 @@ Se crea una clase Peso_Ligero que diera facil acceso a los prototipos del módul
 
 En este módulo se crea una clase Enum la cual provee los tipos de personaje disponibles en el juego para que fuera facilmente extensible la cantidad de personajes que se pueden seleccionar.
 
-
+![]()
 
 #### Modulo Game 
 
@@ -88,13 +93,16 @@ Reemplaza al módulo DemoJuegos de la versión 1, ahora este  módulo no crea cl
 
 Se creo un método de ordenamiento en pantalla probado en el módulo Composite para que los personajes pudieran ser graficados en pantalla, de manera lógica en la cual los personajes  que estuviesen al fondo no se sobrepusieran sobre los personajes mas cercanos a la parte frontal.
 
+![]()
+
 #### Modulo Launcher
 
 Este módulo trae todos los tipos disponibles en el Enum del modulo tipos y crea una matriz en pantalla para que el usuario pueda seleccionar el tipo de personaje con el cual quiere jugar, es decir settea la seleccion del usuario al Modulo Game para que el juego comience aplicando los principios Open-Close y Single Responsability.
 
 
+![]()
 
-#### 
+
 
 
 
