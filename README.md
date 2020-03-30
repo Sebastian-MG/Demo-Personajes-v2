@@ -145,4 +145,4 @@ Este módulo trae todos los tipos disponibles en el Enum del modulo tipos y crea
 
 
 
-![]()
+
